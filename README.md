@@ -16,4 +16,5 @@
 
 ## 📂 Day 1: GPIO Blink
 **Concepts**: GPIO Config, Active Low Logic, Serial Debug
-**File**: `Day01_ESP8266_Blink/Day01_ESP8266_Blink.ino`
+**File**: `Day01_ESP8266_Blink/Day01_ESP8266_Blink.ino
+- [x] Day 2: Button Interrupt + Debounce Logic
