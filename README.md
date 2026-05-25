@@ -1,20 +1,40 @@
-# Embedded C Mastery - 45 Days to 6 LPA 💰
+# Embedded_C_ESP8266_STM32
 
-## 🎯 Mission: B.Tech ECE to Core Embedded Developer
-**Timeline**: 45 Days | **Start**: Oct 2024 | **Target**: 6+ LPA
+## About This Repository
+45-day hands-on journey into Core Embedded Systems.  
+Daily projects covering fundamentals to real-world applications on ESP8266.
 
-## 📅 Roadmap
-- [x] Day 1: ESP8266 GPIO + Setup ✅
-- [ ] Week 1: ESP8266 - GPIO, UART, ADC, WiFi, Interrupts
-- [ ] Week 2: ESP8266 - I2C, SPI, FreeRTOS Tasks
-- [ ] Week 3-4: STM32F103 Bare Metal + Drivers
-- [ ] Week 5-6: DSA + Interview Prep + Offers
+## Projects Overview
 
-## 🛠️ Hardware
-1. ESP8266 NodeMCU - Current
-2. STM32F103 BluePill + ST-Link - Coming Week 3
+| No. | Project | Core Concepts |
+| --- | --- | --- |
+| 01 | ESP8266 Blink | GPIO, Digital Output, Delay |
+| 02 | Button Interrupt | External Interrupts, ISR, Debouncing |
+| 03 | UART Hello | Serial Communication, Baud Rate |
+| 04 | ADC Potentiometer | Analog Read, 10-bit ADC, Voltage Scaling |
+| 05 | PWM | Analog Write, Duty Cycle, LED Brightness Control |
+| 06 | Automated Night Lamp | LDR, ADC, Conditional Automation |
+| 07 | PWM Night Lamp | LDR + PWM Integration for Auto-Dimming |
+| 08 | Auto Manual Lamp | State Machine, Button Input, Mode Switching |
 
-## 📂 Day 1: GPIO Blink
-**Concepts**: GPIO Config, Active Low Logic, Serial Debug
-**File**: `Day01_ESP8266_Blink/Day01_ESP8266_Blink.ino
-- [x] Day 2: Button Interrupt + Debounce Logic
+## Tech Stack
+**MCU:** ESP8266 NodeMCU  
+**Language:** Embedded C/C++  
+**IDE:** Arduino IDE  
+**Peripherals:** GPIO, ADC, PWM, UART, Interrupts  
+**Sensors/Modules:** LDR, Potentiometer, Push Button, LED  
+
+## How to Use
+1. Clone repo or open any project folder
+2. Open `.ino` file in Arduino IDE
+3. Board: `NodeMCU 1.0 (ESP-12E Module)` | Baud: `9600`
+4. Upload code and monitor via Serial Plotter/Monitor
+
+## Highlights
+- Clean, modular code with comments
+- Covers all fundamental embedded peripherals
+- Progress documented via 70+ commits
+- Real-world application: Auto-Manual Lamp system
+
+Open to Core Embedded Systems roles.  
+#EmbeddedSystems #ESP8266 #IoT #Firmware #BareMetal
