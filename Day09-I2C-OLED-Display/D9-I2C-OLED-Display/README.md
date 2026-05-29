@@ -4,7 +4,7 @@
 [Click here to run simulation](https://wokwi.com/projects/465149278356771841)
 
 ### 📸 Output Screenshot:
-![OLED Output](screenshot.png)
+![OLED Output](Screenshot.png)
 
 ### 📟 Display Output:
 - Line 1: Hello Honeywell
